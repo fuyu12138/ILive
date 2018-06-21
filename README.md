@@ -13,6 +13,9 @@
 * 关注
 * 搜索
 * 广告横幅（使用Glide从服务器加载图片有Bug）
+## 项目演示的视频地址
+* youtube 
+* 优酷 
 ## 主要使用的开源项目
 * Ijkplayer https://github.com/Bilibili/ijkplayer
 * DanmakuFlameMaster https://github.com/Bilibili/DanmakuFlameMaster

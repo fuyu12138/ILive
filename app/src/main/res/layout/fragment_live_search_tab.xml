@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_fragment_live_search">
+    <ImageView
+        android:id="@+id/fragment_live_iv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_search_black_24dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fragment_live_iv_search"
+        android:layout_alignBottom="@+id/fragment_live_iv_search"
+        android:layout_toEndOf="@+id/fragment_live_iv_search"
+        android:textAlignment="gravity"
+        android:textSize="15sp"
+        android:text="@string/search"/>
+</RelativeLayout>

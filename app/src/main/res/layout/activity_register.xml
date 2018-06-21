@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.graduation.fuyu.ilive.RegisterActivity">
+
+    <com.graduation.fuyu.ilive.widget.UsernameEditText
+        android:id="@+id/register_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_et_password"
+        android:inputType="textPersonName"
+        android:hint="@string/username"/>
+
+
+    <com.graduation.fuyu.ilive.widget.PasswordEditText
+        android:id="@+id/register_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+
+    <com.graduation.fuyu.ilive.widget.EmailEditText
+        android:id="@+id/register_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_et_password"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"/>
+    <com.graduation.fuyu.ilive.widget.CheckBlankButton
+        android:id="@+id/register_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_et_email"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_check_selector"
+        android:enabled="false"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/register"/>
+
+</RelativeLayout>

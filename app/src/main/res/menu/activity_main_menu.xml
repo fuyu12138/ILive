@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:checked="true"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/my_focus" />
+    </group>
+
+    <group android:id="@+id/group_live"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_live_mine"
+            android:icon="@drawable/ic_live_tv_black_24dp"
+            android:title="@string/my_live_room" />
+        <item
+            android:id="@+id/nav_live_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/room_setting" />
+
+        <item
+            android:id="@+id/nav_live_camera"
+            android:icon="@drawable/ic_camera_enhance_black_24dp"
+            android:title="@string/camera_live" />
+        <!--<item-->
+            <!--android:id="@+id/nav_live_screen"-->
+            <!--android:icon="@drawable/ic_phone_android_black_24dp"-->
+            <!--android:title="@string/screen_live" />-->
+    </group>
+
+    <group android:id="@+id/group_3">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="@string/exit_account" />
+    </group>
+
+</menu>

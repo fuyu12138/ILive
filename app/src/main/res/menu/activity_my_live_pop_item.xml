@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_punish"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_play_arrow_black_24dp"
+        android:title="推流"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_switch"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_switch_camera_black_24dp"
+        android:title="切换"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_clear_black_24dp"
+        android:title="停止"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_back"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_chevron_left_black_24dp"
+        android:title="返回"
+        app:showAsAction="never" />
+
+</menu>

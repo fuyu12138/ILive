@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.graduation.fuyu.ilive.CameraLiveActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <net.ossrs.yasea.SrsCameraView
+            android:id="@+id/activity_myLive_srsCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+    <com.graduation.fuyu.ilive.widget.DragFloatActionButton
+        android:id="@+id/activity_myLive_btn_float"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="6dp"
+        android:src="@drawable/ic_video_call_white_24dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:borderWidth="0dp"
+        app:fabSize="normal"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/activity_camera_live_recyclerView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"
+            tools:listitem="@layout/fragment_chat_msg" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

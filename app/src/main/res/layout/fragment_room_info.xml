@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.graduation.fuyu.ilive.fragment.RoomInfoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGrey">
+        <TextView
+            android:id="@+id/fragment_room_info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_margin="40dp"
+            android:layout_centerInParent="true"
+            android:text="@string/hello_blank_fragment" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:gravity="center_vertical"
+        android:text="请输入房间描述"/>
+    <EditText
+        android:id="@+id/fragment_room_describe_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="8"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_et_describe"/>
+    <Button
+        android:id="@+id/fragment_room_describe_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_selector"
+        android:text="保存"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>

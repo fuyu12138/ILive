@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/fragment_live_iv_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_videocam_pink_24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/fragment_live_iv_video"
+        android:layout_marginStart="10dp"
+        android:text="@string/recommend"/>
+    <TextView
+        android:id="@+id/fragment_live_tv_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/live_num"
+        tools:ignore="RelativeOverlap"
+        android:layout_toStartOf="@+id/fragment_live_tv_1"/>
+    <TextView
+        android:id="@+id/fragment_live_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/fragment_live_tv_2"
+        android:text="@string/zero"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/fragment_live_tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/gezhibo"/>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/fragment_live_iv_right"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:src="@drawable/ic_chevron_right_grey_24dp" />-->
+</RelativeLayout>

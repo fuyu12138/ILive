@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:ignore="ContentDescription"
+    tools:context="com.graduation.fuyu.ilive.LoginActivity">
+
+    <ImageView
+        android:id="@+id/login_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iv_eye_selector"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/login_et_username"
+         />
+    <com.graduation.fuyu.ilive.widget.UsernameEditText
+        android:id="@+id/login_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:inputType="textPersonName"
+        android:hint="@string/username"/>
+    <com.graduation.fuyu.ilive.widget.PasswordEditText
+        android:id="@+id/login_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_et_username"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/login_et_password"
+        android:gravity="center">
+
+        <com.graduation.fuyu.ilive.widget.TouchableButton
+            android:id="@+id/login_btn_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/btn_selector"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/register_account"/>
+
+        <com.graduation.fuyu.ilive.widget.CheckBlankButton
+            android:id="@+id/login_btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_check_selector"
+            android:textColor="@color/colorWhite"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/login"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_dl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    tools:context="com.graduation.fuyu.ilive.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/colorAccent"
+            />
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/activity_main_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/colorAccent"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+                    <include
+                        layout="@layout/searchlayout"/>
+                    <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content">-->
+                        <!--&lt;!&ndash;<android.support.v7.widget.SearchView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:id="@+id/activity_main_search_action"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_alignParentEnd="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginEnd="20dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:imeOptions="actionSearch"&ndash;&gt;-->
+                            <!--&lt;!&ndash;app:queryHint="@string/search"&ndash;&gt;-->
+                            <!--&lt;!&ndash;app:queryBackground="@drawable/shape_search_view">&ndash;&gt;-->
+                        <!--&lt;!&ndash;</android.support.v7.widget.SearchView>&ndash;&gt;-->
+                        <!---->
+                    <!--</RelativeLayout>-->
+
+                </android.support.v7.widget.Toolbar>
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/activity_main_tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabIndicatorColor="@color/colorWhite"
+                    app:tabBackground="@color/colorAccent"
+                    >
+                </android.support.design.widget.TabLayout>
+            </android.support.design.widget.AppBarLayout>
+
+
+            <!--<include layout="@layout/activity_main_top_tab"/>-->
+            <android.support.v4.view.ViewPager
+                android:id="@+id/activity_main_vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            </android.support.v4.view.ViewPager>
+
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/activity_main_navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/activity_main_menu">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

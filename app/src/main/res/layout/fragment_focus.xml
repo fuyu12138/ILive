@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="FocusFragment"
+    tools:context="com.graduation.fuyu.ilive.fragment.FocusFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_focus_swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_focus_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            tools:listitem="@layout/fragment_focus_item">
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/fragment_focus_tv_no_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_focus"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"/>
+
+</FrameLayout>

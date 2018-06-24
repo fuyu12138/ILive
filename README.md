@@ -27,7 +27,7 @@
 <p align='center'>
     <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-24-58-16.jpeg" height="450px"/>
     <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-27-38-63.jpeg" height="450px"/>
-    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-29-23-73.jpeg" height="450px"/>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-03-32-52-87.jpeg" height="450px"/>
 </p>
 
 ## 项目演示的视频地址

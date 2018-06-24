@@ -14,7 +14,21 @@
 * 搜索
 * 广告横幅（使用Glide从服务器加载图片有Bug）
 ## 主要界面截图
-
+<p align='center'>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-14-10-28-33-53.jpeg" height="450px"/>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-18-53-07.jpeg" height="450px"/>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-03-21-18-32.jpeg" height="450px"/>
+</p>
+<p align='center'>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-21-30-42.jpeg" height="450px"/>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-19-37-23.jpeg" height="450px"/>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-20-09-29.jpeg" height="450px"/>
+</p>
+<p align='center'>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-24-58-16.jpeg" height="450px"/>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-27-38-63.jpeg" height="450px"/>
+    <img src="https://github.com/fuyu12138/ILive/blob/master/images/Screenshot_2018-06-25-02-29-23-73.jpeg" height="450px"/>
+</p>
 ## 项目演示的视频地址
 * youtube 
 * 优酷 

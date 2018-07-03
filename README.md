@@ -2,6 +2,7 @@
 本科毕业设计。采用C/S架构，这里只给了安卓客户端的源代码。
 <br>UI模仿Bilibili的Android端的一部分，很多实现也只是自己估摸着，效果其实和B站存在着一些差距。
 <br>Email:fuyu273781076@gmail.com
+<br>app下载地址:https://github.com/fuyu12138/ILive/tree/master/app/release
 ## 功能
 * 登录注册
 * 摄像头推流（Yasea）
